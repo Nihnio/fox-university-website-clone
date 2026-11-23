@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px ;
+ }
+  .fb {
+      min-height: 1000px;
+      height: 100vh ;
+      background-color: rgba(143, 143, 206, 0.473);
+      font-family: Arial;
+ }
+  .meta{
+      background-color: rgba(17, 17, 196, 0.603);
+      min-height: 80px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      color: white;
+      font-size: 12px;
+ }
+  .form{
+      display: flex;
+      margin: 5px;
+      margin-top: 15px;
+      margin-right: 100px;
+ }
+  .meta h1{
+      font-size: 30px;
+      margin-top: 30px;
+      margin-left: 60px;
+      color: white;
+ }
+  .form input[ type=submit]{
+      border: 2px solid  rgba(45, 45, 119, 0.603);;
+      background:  rgba(17, 17, 196, 0.603);
+      color: white;
+      padding: 0px 5px;
+      border-radius: 3px;
+  }
+  .acc{
+      color: rgba(180, 180, 223, 0.473);
+      margin-top: 9px ;
+ }
+   .create{
+       margin: auto;
+       width: 80%;
+       display: flex;
+       justify-content: space-between;
+       position: relative;
+      margin-top: 20px;
+      margin-right: 10px;
+ }
+  
+   .create>div:nth-last-of-type(1){
+       width: 60%;
+       margin-left: 100px;
+ }
+   .create>div:nth-last-of-type(2){
+       width: 35%;
+       font-weight: bold;
+       color: rgba(11, 54, 54, 0.712);
+ }
+   .create input[ type=text]{
+       border: 1px solid gray;
+       border-radius: 5px;
+       padding: 5px;
+ }
+  .create input[ type= numberemail],
+  .create input[ type= password]{
+      border: 1px solid gray;
+      border-radius: 5px;
+      padding: 7px 85px;
+ }
+  .bd{
+      color: gray;
+      margin-bottom: 5px;
+ }
+  .gen{
+      color: gray;
+
+ }
+  .mn{
+      margin-left: 15px;
+      margin-top: 5px;
+ }
+   .fquest{
+     margin-left: 8px;
+ }
+   .term{
+       color: blue;
+ }
+   .by{
+      
+       width: 60%;
+       margin-top: 10px;
+ } 
+   .by p{
+       font-size: 15px;
+       font-weight: bold;
+ }
+  .by input[ type=submit]{
+      border: 2px solid  rgb(27, 158, 27);
+      border-radius: 4px;
+      background: rgb(27, 158, 27);
+      color: white;
+      font-weight: bold;
+      padding: 5px 24px;
+      box-shadow: 1px 1px 1px 1px rgb(27, 158, 27) ;
+  }
+ .logo i{
+     font-size: 200px;
+     margin-top: 50px;
+     margin-left: 80px;
+     color: blue;
+ }
+   
+   
+  

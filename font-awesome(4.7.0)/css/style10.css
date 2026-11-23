@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.nav2{
+    border: 2px solid gold;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+#myBtn1{
+    display: none;
+}
+
+
+@media screen and (max-width: 500px){
+     .nav2{
+        display: block;
+       /* border: 2px solid black;
+        justify-content: space-between;
+        padding: 20px 0px;*/
+    }
+    .nav2 a{
+        display: block;
+        margin-bottom: 20px;
+    }
+    #myBtn1{
+        display: block;
+    }
+    .nav1{
+        display: none;
+    }
+}

@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+ }
+  .sever{
+      border: 1px solid white;
+      min-height: 800px;
+      height: 100vh;
+      background-image: url(../images/picman.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+ }
+  .head{
+      border: 0px solid black;
+      width: 90%;
+      margin: auto;
+      margin-top: 40px;
+      min-height: 600px;
+      background-image: url(../images/space.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+ }
+  .dip{
+      border: 0px solid white;
+      background: grey;
+  }
+  .pin{
+      display: flex ;
+ }
+  .pan{
+      display: flex;
+ }
+  .pon{
+      display: flex;
+ }
+  .navas{
+     border: 0px solid rgba(255, 217, 0, 0.904);
+     background-color: rgba(255, 217, 0, 0.678) ;
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-evenly;
+ }
+ .timo{
+     border: 0px solid grey;
+     background: grey;
+     display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+ }
+  .heat{
+      border:1px solid goldenrod;
+     background-color: black;
+     color: white;
+      padding: 28px;
+      margin-top: 70px;
+      width: 30% ;
+      margin-left: 700px;
+      opacity: 0.6;
+ }
+  .fre{
+      color: goldenrod;
+  }
+.pen>h3{
+    margin-left: 470px;
+    margin-top: 80px;
+    color: goldenrod;
+    font-family: monospace;
+ }
+ .pen>p{
+     margin-left: 440px;
+     font-size: 24px;
+     font-weight: bold;
+     color: gray;
+ }
+ .fphon,.fmap,.fdev{
+     text-decoration: none;
+     color: black;
+ }
+ .ftwitt{
+     text-decoration: none;
+     color: skyblue;
+ }
+ .finsta{
+     text-decoration: none;
+     color: brown;
+ }
+ .fsqua{
+     text-decoration: none;
+     color: blue;
+ }
+ .sic{
+     display: flex;
+ }
+  .sic p{
+      font-size: 18px;
+      margin-left: 8px;
+      font-weight: bold;
+  }
+   .liv{
+       font-weight: bold;
+   }
+  button{
+      border: 0px solid white;
+      padding: 13px 8px;
+      background-color: rgb(124, 69, 168);
+      color: white;
+      border-radius: 5px;
+      margin-bottom: 35px;
+  }
+   .heat input[type=text],.heat input[type=email]{
+       padding: 6px;
+       border-radius: 5px;
+       outline: none;
+  }
+    textarea{
+     outline: none;
+     resize: none;
+     border-radius: 5px;
+  }
+   .cold a{
+       text-decoration: none;
+       color: silver;
+       font-weight: bold;
+  }
+  .vin{
+      color: purple;
+  }
+   .heat input[ type= submit]{
+       border: 1px solid goldenrod;
+       padding: 6px 2px;
+       background-color: rgb(15, 15, 15);
+       color: goldenrod;
+   }
+
+ 

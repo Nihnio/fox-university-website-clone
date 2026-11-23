@@ -1,0 +1,12 @@
+*{
+    border: 0;
+    padding: 0;
+ }
+  header{
+      border: 2px solid brown;
+      min-height: 800px;
+      height: 100vh;
+      background-image: url(../images/Dope-Backgrounds-4k.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+ }

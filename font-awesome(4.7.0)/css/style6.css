@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+ }
+    .nav header{
+    border: 2px solid yellow;
+ }
+ 
+    header{
+       border:2px solid yellow;
+    color: white;
+    min-height: 800px;
+    height: 100vh;
+    background: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+   
+ }
+    header>div{
+    height: 100vh;
+    background: linear-gradient(to left rgba(100, 50, 50, 0.5) Rgba(50,50,150,0.9));
+ }
+    nav{
+    width: 100%;
+    height: auto;
+ }
+    nav>div{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 0;
+ }
+    nav a{
+    color: white;
+    text-decoration: none;
+    transition: 0.25s ease-in-out;
+ }
+     .nav2{
+         font-size: 20px;
+     }
+   nav a:hover{
+   color: yellow;
+ }
+    nav a:active{
+    color:pink;
+ }
+    .nav3 a:not(:last-child),
+    .nav3 button{
+    margin-left: 30px;
+ }
+    .nav3 button{
+    background-color:black;
+    border: 2px solid white;
+    border-radius: 4px;
+    color: white;
+    padding: 7px 20px;
+    
+ }
+    .nav3 button a{
+    color: white;
+ }
+    .overlay{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 100px;
+ }
+    .footer{
+     color: teal;
+ }
+     .overlay>div:nth-of-type(1){
+      width: 59%;
+ }
+     .overlay>div:nth-of-type(2){
+      width:39%;
+ }
+     .dollars{
+      color: teal;
+ }
+     .overlay button{
+      padding: 4px 10px;
+ } 
+     .overlay button:nth-of-type(1){
+      background: teal;
+      font-family:  'Arial Bold';
+      color: white;
+ }
+     .overlay button:nth-of-type(2){
+      background: none;
+      font-family: 'Arial Narrow Bold';
+      color: white;
+ }
+      #name{
+      height: 500px;
+      width: 254px;
+      background-image: url(../images/lenovo.jpg);
+      background-repeat: no-repeat;
+      background-size:cover;
+      background-position: center;
+      z-index: 1;
+ }
+      .overlaya h2{
+        font-size: 25px;
+ }
+       
+
+      .overlayb{
+      display: flex;
+ }
+      .overlay h1{
+      display: flex;
+      transform:rotateZ(90deg);
+      position: relative;
+      right: 265px;
+      font-size: 80px;
+      color: teal;
+ }
+      .overlaya p{
+      color: white;
+      width: 90%;
+      margin-bottom: 15px;
+      font-size: 15px;
+}
+     .overlaya  h4{
+           font-size: 15px;
+     }
+      .dollar{
+          color: teal;
+      }
